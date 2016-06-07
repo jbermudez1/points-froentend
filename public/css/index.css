@@ -1,0 +1,160 @@
+body .navbar {
+  background-color: #4a4a4a;
+  color: #fff;
+}
+body .navbar .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body .navbar .container .logo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body .navbar .container .logo img {
+  height: 5em;
+}
+body .navbar .container .hmenu {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -o-box-flex: 2;
+  -ms-box-flex: 2;
+  box-flex: 2;
+  -webkit-flex-grow: 2;
+  flex-grow: 2;
+}
+body .navbar .container .hmenu ul {
+  text-align: right;
+}
+body .navbar .container .hmenu ul li {
+  display: inline;
+  padding: 1em;
+}
+body .navbar .container .hmenu ul li a {
+  color: #fff;
+}
+body .saldo-section h1 {
+  color: #ffa500;
+  text-align: center;
+}
+body .saldo-section h3 {
+  text-align: center;
+}
+body .menu-section {
+  margin-top: 3em;
+}
+body .menu-section ul {
+  text-align: center;
+}
+body .menu-section ul li {
+  display: inline;
+}
+body .menu-section ul li a {
+  padding: 10px 20px;
+  list-style-type: none;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+body .menu-section ul li a:hover {
+  border-bottom: 3px solid #ffa500;
+}
+body .menu-catalogo .container ul {
+  text-align: center;
+}
+body .menu-catalogo .container ul li {
+  display: inline;
+}
+body .menu-catalogo .container ul li a {
+  padding: 10px 20px;
+  list-style-type: none;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+body .menu-catalogo .container ul li a:hover {
+  border-bottom: 3px solid #50e3c2;
+}
+.body-login {
+  background-color: #fc5555;
+  color: #fff;
+}
+.body-login .login {
+  margin-top: 11em;
+}
+.body-login form {
+  margin: auto;
+  padding: 30px;
+  max-width: 500px;
+}
+.body-login form .login-modes {
+  text-align: center;
+}
+.body-login form .login-modes img {
+  width: 100px;
+  padding: 20px;
+  cursor: pointer;
+}
+.body-login form h2 {
+  text-align: center;
+}
+.body-login form input {
+  display: block;
+  padding: 6px;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 20px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.body-login form p {
+  text-align: center;
+}
+.body-login form button {
+  background-color: #fc5555;
+  border: 0;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.body-login .points {
+  margin-top: 2em;
+}
+.body-login .points .container {
+  margin-top: 2em;
+  border-top: 1px solid #eee;
+}
+.body-login .points .container .row div .footer-logo {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.body-login .points .container .row div .footer-logo img {
+  height: 2.5em;
+}
+.body-login .points .container .row div .footer-info {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
